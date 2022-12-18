@@ -1,15 +1,16 @@
 :root {
-  --main-color: #2e2f42;
+  --navy-blue-color: #2e2f42;
+  --slate-color: #434455;
+  --iris-color: #4d5ae5;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
+  background-color: #fff;
 }
-h1 {
-  color: #ffffff;
-}
+
 h2 {
   font-weight: 600;
   font-size: 36px;
@@ -17,21 +18,21 @@ h2 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--main-color);
+  color: var(--navy-blue-color);
 }
+
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 h4 {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: #434455; */
 }
 
 /* Site nav */
@@ -43,7 +44,7 @@ h4 {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 .logo-web {
   text-decoration: none;
@@ -53,14 +54,14 @@ h4 {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris-color);
 }
 .header-nav {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -74,11 +75,11 @@ h4 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 .header-item:hover,
 .header-item:focus {
-  color: #4d5ae5;
+  color: var(--iris-color);
 }
 .header-contact {
   list-style: none;
@@ -88,7 +89,15 @@ h4 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-color);
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .about-list,
 .we-do-list,
@@ -97,7 +106,7 @@ h4 {
 }
 
 .hero {
-  background: #2e2f42;
+  background: var(--navy-blue-color);
 }
 
 .btn {
@@ -107,7 +116,7 @@ h4 {
   line-height: 1.18;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background: var(--iris-color);
   cursor: pointer;
 }
 
@@ -121,7 +130,7 @@ h4 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--iris-color);
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -152,7 +161,7 @@ h4 {
 
 /* footer */
 footer {
-  background: #2e2f42;
+  background: var(--navy-blue-color);
 }
 .footer-web {
   font-weight: 800;
@@ -162,7 +171,7 @@ footer {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris-color);
 }
 .footer-studio {
   font-weight: 800;
